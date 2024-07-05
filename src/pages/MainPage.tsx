@@ -16,7 +16,7 @@ function MainPage({ setBgColor }: any) {
   };
 
   const fetchData = async () => {
-    setIsLoading(true); // Set loading state to true before fetching
+    setIsLoading(true); 
     try {
       const response = await fetch('https://cms.samespace.com/items/songs');
       if (!response.ok) {
